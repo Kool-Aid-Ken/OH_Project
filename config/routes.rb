@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   get "/deals_2", to: "deals#deals_2"
   get "/deals_3", to: "deals#deals_3"
 
+  get "/Testing", to: "home#Testing"
+  get "index", to: "home#index"
+
 end
